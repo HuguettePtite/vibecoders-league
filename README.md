@@ -5,7 +5,7 @@
 ---
 
 ## 🎭 Mi Sello del Portafolio: *L'Impronta Italiana*
-Como entusiasta de la cultura y la literatura italiana, he decidido unificar todos los retos de esta liga bajo una misma identidad de marca personal. Cada proyecto resolverá una necesidad inspirada en la tradición, la gastronomía o el arte italiano, demostrando consistencia conceptual y versatilidad técnica.
+Como entusiasta de la cultura he decidido unificar todos los retos de esta liga bajo una misma identidad de marca personal. Cada proyecto resolverá una necesidad inspirada en la tradición, la gastronomía o el arte italiano, demostrando consistencia conceptual y versatilidad técnica.
 
 ---
 
