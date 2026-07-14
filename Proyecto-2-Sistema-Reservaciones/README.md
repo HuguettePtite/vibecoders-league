@@ -34,6 +34,9 @@ En lugar de añadir un formulario de contacto frío y genérico, se fusionaron d
 ## 🧠 Evolución de Gianluca (IA Conversacional)
 El asistente de IA fue re-entrenado para comprender esta actualización del sistema. Ahora, cuando un comensal menciona intenciones de asistir o reservar una mesa en el chat, Gianluca lo redirige con total naturalidad hacia la sección interactiva del formulario web, cerrando un flujo de usuario impecable.
 
+## 🔗 Enlace de Producción
+👉 [Prueba el prototipo en vivo aquí](https://dueterre-trattoria.lovable.app) 
+
 ## 📝 Ingeniería de Prompts (Prompt Engineering)
 
 <details>
