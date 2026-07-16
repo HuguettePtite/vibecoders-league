@@ -26,6 +26,10 @@ Basado en el valioso feedback de los usuarios, se realizaron dos grandes mejoras
 *   **Rediseño de Interfaz:** Se incrementó la escala y visibilidad del botón flotante del asistente virtual (Gianluca) para evitar que fuera obstruido por elementos del editor, mejorando significativamente el *Click-Through Rate* (CTR) sin romper la hermosa estética rústica-moderna.
 *   **Inteligencia Conversacional:** Se entrenó el contexto de Gianluca para que, al detectar dudas sobre eventos, catas o promociones, invite proactivamente al usuario a realizar el Quiz en la web para obtener su tarjeta de fidelidad.
 
+🔗 Enlace de la Experiencia en Vivo
+👉 Descubre tu Alma Gemela del Vino aquí
+https://preview--dueterre-trattoria.lovable.app/ 
+
 ## 📝 Ingeniería de Prompts (Prompt Engineering)
 
 <details>
@@ -68,5 +72,11 @@ Por favor, realiza los siguientes dos ajustes específicos de UI/UX en el proyec
 - Dentro del componente visual de la Tarjeta de Fidelidad (Fidelity Card) que se muestra al finalizar el quiz, añade un botón estético, limpio y minimalista que diga "Guardar Tarjeta".
 - Configura este botón para que, al hacer clic, ejecute de forma directa la función nativa del navegador window.print(). 
 - Asegúrate de que aplique un estilo CSS de impresión básico (@media print) para que el usuario pueda guardar la tarjeta cómodamente como PDF o imprimirla desde su dispositivo de manera limpia, ocultando el resto de la página web durante la impresión.
+```
+</details>
+
+
+
+
 ```
 </details>
