@@ -26,9 +26,8 @@ Basado en el valioso feedback de los usuarios, se realizaron dos grandes mejoras
 *   **Rediseño de Interfaz:** Se incrementó la escala y visibilidad del botón flotante del asistente virtual (Gianluca) para evitar que fuera obstruido por elementos del editor, mejorando significativamente el *Click-Through Rate* (CTR) sin romper la hermosa estética rústica-moderna.
 *   **Inteligencia Conversacional:** Se entrenó el contexto de Gianluca para que, al detectar dudas sobre eventos, catas o promociones, invite proactivamente al usuario a realizar el Quiz en la web para obtener su tarjeta de fidelidad.
 
-🔗 Enlace de la Experiencia en Vivo
-👉 Descubre tu Alma Gemela del Vino aquí
-https://preview--dueterre-trattoria.lovable.app/ 
+## 🔗 Enlace de Producción
+👉 [Prueba el prototipo en vivo aquí](https://dueterre-trattoria.lovable.app)
 
 ## 📝 Ingeniería de Prompts (Prompt Engineering)
 
