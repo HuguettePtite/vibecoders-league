@@ -1,4 +1,5 @@
 # Proyecto 3: Captura creativa de leads mediante gamificación (Due Terre)
+![Due Terre Trattoria](due-terre-trattoria.png)
 
 ## 📌 El Reto de la Liga
 El objetivo de este tercer módulo en la VibeCoders League fue romper con la monotonía de los formularios tradicionales de contacto. El desafío consistió en diseñar una **herramienta interactiva y gamificada** que ofreciera un valor real, lúdico o educativo al usuario *antes* de solicitar sus datos, logrando así un intercambio orgánico, sofisticado y de alta conversión.
