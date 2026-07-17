@@ -1,4 +1,6 @@
 # Proyecto 1: El asistente que responde por tu negocio (Due Terre Trattoria)
+![Due Terre Trattoria](./imagenes/mi-captura.png)
+
 
 ## 📌 El Problema Real
 Due Terre es una trattoria artesanal real ubicada en la calle Malintzin, Coyoacán, con una excelente propuesta gastronómica pero una presencia digital que no reflejaba su esencia rústica y de barrio. Además, el negocio forma parte de la importadora *Il Porto d'Italia* (en Francisco Sosa), un vínculo comercial potente que no estaba visibilizado en sus canales digitales.
