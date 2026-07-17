@@ -1,5 +1,5 @@
 # Proyecto 1: El asistente que responde por tu negocio (Due Terre Trattoria)
-![Due Terre Trattoria](./imagenes/mi-captura.png)
+![Due Terre Trattoria](due-terre-trattoria.png)
 
 
 ## 📌 El Problema Real
