@@ -1,4 +1,5 @@
 # Proyecto 2: Tu producto en línea, capturando datos reales (Due Terre)
+![Due Terre Trattoria](due-terre-trattoria.png)
 
 ## 📌 El Reto de la Liga
 El objetivo de este segundo módulo en la VibeCoders League consistió en evolucionar una interfaz estática hacia un **sistema web funcional** capaz de capturar e interactuar con información en tiempo real. La meta técnica: conectar un formulario real a una base de datos persistente (Supabase) evitando "botones decorativos".
