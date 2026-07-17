@@ -26,6 +26,13 @@ Basado en el valioso feedback de los usuarios, se realizaron dos grandes mejoras
 *   **Rediseño de Interfaz:** Se incrementó la escala y visibilidad del botón flotante del asistente virtual (Gianluca) para evitar que fuera obstruido por elementos del editor, mejorando significativamente el *Click-Through Rate* (CTR) sin romper la hermosa estética rústica-moderna.
 *   **Inteligencia Conversacional:** Se entrenó el contexto de Gianluca para que, al detectar dudas sobre eventos, catas o promociones, invite proactivamente al usuario a realizar el Quiz en la web para obtener su tarjeta de fidelidad.
 
+## 🔒 Buenas Prácticas de Ciberseguridad e Inserción Segura
+Como parte del control de acceso y protección de datos personales de los miembros del club, se auditaron y mitigaron las alertas de exposición de la base de datos:
+*   **Políticas RLS (Row Level Security):** Se activaron e implementaron políticas de seguridad a nivel de fila en Supabase para las tablas del sistema (`reservations` y `club_fidelidad`).
+*   **Principio de Menor Privilegio:** Se configuraron reglas específicas para que los usuarios anónimos de la web tengan permisos exclusivos de inserción (`INSERT`) para registrarse en el quiz o hacer una reserva, bloqueando por completo los permisos de lectura pública (`SELECT`). Esto evita la exposición o filtración de la base de datos comercial del restaurante.
+
+---
+
 ## 🔗 Enlace de Producción
 👉 [Prueba el prototipo en vivo aquí](https://dueterre-trattoria.lovable.app)
 
@@ -71,11 +78,16 @@ Por favor, realiza los siguientes dos ajustes específicos de UI/UX en el proyec
 - Dentro del componente visual de la Tarjeta de Fidelidad (Fidelity Card) que se muestra al finalizar el quiz, añade un botón estético, limpio y minimalista que diga "Guardar Tarjeta".
 - Configura este botón para que, al hacer clic, ejecute de forma directa la función nativa del navegador window.print(). 
 - Asegúrate de que aplique un estilo CSS de impresión básico (@media print) para que el usuario pueda guardar la tarjeta cómodamente como PDF o imprimirla desde su dispositivo de manera limpia, ocultando el resto de la página web durante la impresión.
+
+PROMPT 4
+## 🎨 Ajustes Estéticos y Control de CSS (Tailwind)
+Se corrigió un comportamiento inesperado en el maquetado del formulario de registro donde la interfaz del chat/IA había anidado clases erróneas:
+*   **Solución de Fluidización:** Se eliminaron las clases `flex` y `gap-2` del elemento `<span>` interno en el checkbox del Club Due Terre. Con esto, el texto pasó de renderizarse en columnas rotas y amontonadas a fluir de manera natural, continua y legible en un solo párrafo, manteniendo la consistencia visual *chic* de la landing page.
+
 ```
 </details>
 
 
 
 
-```
-</details>
+
