@@ -33,7 +33,7 @@ Se implementaron dos workflows independientes en n8n:
 
 Desencadenado desde el formulario de reserva de mesa del sitio web.
 
-```mermaidgraph LR
+```mermaid
 graph LR
   A[Webhook] --> B{If}
   B -->|true| C[Send a message - Gmail]
