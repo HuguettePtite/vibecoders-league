@@ -1,5 +1,7 @@
 # 🍇 Proyecto 4: Automatización de Flujos y Acciones Encadenadas (n8n)
 
+![Due Terre Trattoria](due-terre-trattoria.png)
+
 Este repositorio contiene la arquitectura de automatización backend desarrollada en **n8n** para procesar y ejecutar acciones automáticas a partir de los datos capturados en el sitio web de **Due Terre Trattoria** (Proyecto 1/2) y la aplicación interactiva **El Alma Gemela del Vino** (Proyecto 3).
 
 ---
@@ -91,6 +93,9 @@ Durante la integración de las automatizaciones en **n8n** se presentaron dos in
 * **Solución:** Se seleccionó el modo **Expression** en el mensaje de Discord y se arrastraron directamente los nodos del JSON desde el panel dinámico de *INPUT* (`$json.body...`) hacia el cuerpo del texto, garantizando que el *payload* tomara la ruta exacta de la propiedad recibida.
 
 ---
+
+## 🔗 Enlace de Producción
+👉 [Prueba el prototipo en vivo aquí](https://dueterre-trattoria.lovable.app)
 
 ## 📂 Prompts Utilizados en el Desarrollo
 
