@@ -1,8 +1,8 @@
 # 🍇 Proyecto 4: Automatización de Flujos y Acciones Encadenadas (n8n)
 
-![Due Terre Trattoria](due-terre-trattoria.png)
-
 Este repositorio contiene la arquitectura de automatización backend desarrollada en **n8n** para procesar y ejecutar acciones automáticas a partir de los datos capturados en el sitio web de **Due Terre Trattoria** (Proyecto 1/2) y la aplicación interactiva **El Alma Gemela del Vino** (Proyecto 3).
+
+![Due Terre Trattoria](due-terre-trattoria.png)
 
 ---
 
