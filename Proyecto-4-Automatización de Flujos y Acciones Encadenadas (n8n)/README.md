@@ -33,12 +33,12 @@ Se implementaron dos workflows independientes en n8n:
 
 Desencadenado desde el formulario de reserva de mesa del sitio web.
 
-```mermaid
-graph LR
-    A[Formulario Web / Lovable] -->|POST JSON| B[Webhook n8n]
-    B --> C{Filtro / Switch}
-    C -->|Reserva Válida| D[Gmail: Confirmación con Estilos Due Terre]
-    D --> E[Discord: Alerta al Equipo 'Preparen los Vinos']
+```mermaidgraph LR
+  graph LR
+    A[Webhook] --> B{If}
+    B -->|true| C[Send a message - Gmail]
+    B -->|false| D[No Operation, do nothing]
+    C --> E[Discord]
 
 ```
 
@@ -54,10 +54,10 @@ Desencadenado al finalizar el quiz interactivo de maridaje de vino.
 
 ```mermaid
 graph LR
-    A[Quiz / Lovable] -->|POST JSON + Image URL| B[Webhook n8n]
-    B --> C{Acepta Club de Vinos}
-    C -->|True| D[Gmail: Envío de Tarjeta Digital + QR]
-    D --> E[Discord: Registro de Nuevo Socio]
+   A[Webhook] --> B{If}
+    B -->|true| C[Send a message - Gmail]
+    B -->|false| D[No Operation, do nothing]
+    C --> E[Discord]
 
 ```
 
